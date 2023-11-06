@@ -1,5 +1,7 @@
 # HotelInventoryApp
 
+https://www.youtube.com/watch?v=3qBXWUpoPHo  --> I am following this course as an attempt to learn Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
 
 ## Development server
