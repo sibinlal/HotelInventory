@@ -58,4 +58,11 @@ export class RoomsComponent {
     }
   }
 
+  selectRoom(room: RoomList) {
+    console.log(room);
+
+    // do something with selected room
+
+  }
+
 }
