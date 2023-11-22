@@ -1,10 +1,12 @@
-<h1>welcome to <span style="color: blue;">{{hotelName}}</span></h1>
+<!-- <h1>welcome to <span style="color: blue;">{{hotelName}}</span></h1> -->
+
+<app-header></app-header>
 
 <div [hidden]="hideRooms">
     Number of rooms : <span [innerText]="numberOfRooms"></span>
 </div>
 <br>
-<button (click)="toggle()"> {{buttonName}}</button> <br>
+<button (click)="toggle()"> {{buttonName}}</button> <br> <br>
 
 <div *ngIf="rooms.availableRooms > 0">
     <app-rooms-list [roomsList]="roomsList"  (selectedRoom)="selectRoom($event)"></app-rooms-list>
